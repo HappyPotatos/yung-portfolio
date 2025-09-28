@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 
-const FadeInSection = ({ children }) => {
+const FadeInSection = ({ children, fadeInThreshold = 0.2, fadeOutThreshold = 0.6 }) => {
   const domRef = useRef();
   const [isVisible, setVisible] = useState(false);
 
@@ -8,11 +8,19 @@ const FadeInSection = ({ children }) => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          setVisible(entry.isIntersecting); // true if in view, false if out
+          // Fade in when the element is "fadeInThreshold" visible
+          if (entry.intersectionRatio >= fadeInThreshold) {
+            setVisible(true);
+          }
+          // Fade out when the element is less than "fadeOutThreshold" visible
+          if (entry.intersectionRatio < fadeOutThreshold) {
+            setVisible(false);
+          }
         });
       },
       {
-        threshold: 0.3, // 10% of element needs to be visible
+        threshold: Array.from({ length: 21 }, (_, i) => i / 20), 
+        // thresholds = [0, 0.05, 0.1, ..., 1]
       }
     );
 
@@ -21,7 +29,7 @@ const FadeInSection = ({ children }) => {
     return () => {
       if (domRef.current) observer.unobserve(domRef.current);
     };
-  }, []);
+  }, [fadeInThreshold, fadeOutThreshold]);
 
   return (
     <div
