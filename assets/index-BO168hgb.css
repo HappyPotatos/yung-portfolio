@@ -1,0 +1,1 @@
+body{background-color:#212529;color:#e9ecef;font-family:Verdana,Geneva,Tahoma,sans-serif;padding-left:10vw}div{padding-bottom:20vh}p{padding-bottom:10vh}h1{font-size:5rem}.introduction{padding-bottom:30vh}.fade-in-section{opacity:0;transform:translateY(20px);transition:opacity .6s ease-out,transform .6s ease-out}.fade-in-section.is-visible{opacity:1;transform:none}
