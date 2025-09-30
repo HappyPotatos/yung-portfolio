@@ -13,7 +13,7 @@ function App() {
         <h1> Hi, I'm Yung</h1>
       </div>
 
-      <FadeInSection fadeInAt={0.2} fadeOutAt={0.6}>
+      <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
         <div className="about_me">
           <h1>About Me</h1>
           <p>
@@ -25,7 +25,7 @@ function App() {
       </FadeInSection>
 
       <div className="projects">
-        <FadeInSection fadeInAt={0.2} fadeOutAt={0.6}>
+        <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
           <div className="backend">
             <h1>Back-end</h1>
             <p>I am proficient in SQL, Java, Python, and using APIs (flask).</p>
@@ -46,7 +46,7 @@ function App() {
           </div>
         </FadeInSection>
 
-        <FadeInSection fadeInAt={0.2} fadeOutAt={0.6}>
+        <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
           <div className="frontend">
             <h1>Front-end</h1>
             <p>
@@ -71,7 +71,7 @@ function App() {
         </FadeInSection>
       </div>
 
-      <FadeInSection fadeInAt={0.2} fadeOutAt={0.6}>
+      <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
         <div className="links">
           <h1>Links</h1>
           <p>
