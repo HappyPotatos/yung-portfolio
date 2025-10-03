@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="introduction">
         <h1> Hi, I'm Yung</h1>
-        <img src={laptop} alt="Image of laptop"/>
+        <img src={laptop} alt="Image of laptop" className="introduction-image"/>
       </div>
 
       <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>

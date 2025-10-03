@@ -19,9 +19,13 @@ h1 {
 }
 
 .introduction {
-
 }
 
+.introduction-image {
+  padding-bottom: 0;
+  mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
+}
 .fade-in-section {
   opacity: 0;
   transform: translateY(20px);
