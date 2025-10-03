@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import laptop from './assets/laptop.jpg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import FadeInSection from "./components/FadeInSection"
@@ -11,6 +12,7 @@ function App() {
     <>
       <div className="introduction">
         <h1> Hi, I'm Yung</h1>
+        <img src={laptop} alt="Image of laptop"/>
       </div>
 
       <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>

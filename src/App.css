@@ -3,6 +3,7 @@ body {
   color: #e9ecef;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 div {
@@ -18,7 +19,7 @@ h1 {
 }
 
 .introduction {
-  padding-bottom: 30vh;
+
 }
 
 .fade-in-section {
