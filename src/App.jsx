@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import laptop from './assets/laptop.jpg'
+import kiosk from './assets/kiosk.jpg'
+import dungeoncrawler from './assets/dungeoncrawler.jpg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import FadeInSection from "./components/FadeInSection"
@@ -33,14 +35,14 @@ function App() {
             <p>I am proficient in SQL, Java, Python, and using APIs (flask).</p>
 
             <h2>Virtual Wait System</h2>
-            <h2>Insert Image/Link here of project</h2>
+            <img src={kiosk} alt="Image of kiosk"/>
             <p>
               A fully functional kiosk screen and menu, eliminating the need for waiters to find a table and order food. <br />
               <strong>Primary Languages:</strong> SQLite, Python, Flask.
             </p>
 
             <h2>Dungeon Crawler</h2>
-            <h2>Insert Image/Link here of project</h2>
+            <img src={dungeoncrawler} alt="Image of dungeoncrawler"/>
             <p>
               A 2D dungeon crawler game, with unique monster and weapon mechanics. <br />
               <strong>Primary Languages:</strong> Java.
