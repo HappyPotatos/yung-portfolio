@@ -17,7 +17,7 @@ function App() {
         <img src={laptop} alt="Image of laptop" className="introduction-image"/>
       </div>
 
-      <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
+      <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
         <div className="about_me">
           <h1>About Me</h1>
           <p>
@@ -29,53 +29,66 @@ function App() {
       </FadeInSection>
 
       <div className="projects">
-        <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
+        <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
           <div className="backend">
             <h1>Back-end</h1>
             <p>I am proficient in SQL, Java, Python, and using APIs (flask).</p>
 
-            <h2>Virtual Wait System</h2>
-            <img src={kiosk} alt="Image of kiosk"/>
-            <p>
-              A fully functional kiosk screen and menu, eliminating the need for waiters to find a table and order food. <br />
-              <strong>Primary Languages:</strong> SQLite, Python, Flask.
-            </p>
-
-            <h2>Dungeon Crawler</h2>
-            <img src={dungeoncrawler} alt="Image of dungeoncrawler"/>
-            <p>
-              A 2D dungeon crawler game, with unique monster and weapon mechanics. <br />
-              <strong>Primary Languages:</strong> Java.
-            </p>
+            <div className="backend_projects">
+              <div className="content-wrapper">
+                <h2>Virtual Wait System</h2>
+                <img src={kiosk} alt="Image of kiosk"/>
+                <p>
+                  A fully functional kiosk screen and menu, eliminating the need for waiters to find a table and order food. <br />
+                  <strong>Primary Languages:</strong> SQLite, Python, Flask.
+                </p>
+              </div>
+            </div>
+            <div className="backend_projects">
+              <div className="content-wrapper">
+                <h2>Dungeon Crawler</h2>
+                <img src={dungeoncrawler} alt="Image of dungeoncrawler"/>
+                <p>
+                  A 2D dungeon crawler game, with unique monster and weapon mechanics. <br />
+                  <strong>Primary Languages:</strong> Java.
+                </p>
+              </div>
+            </div>
           </div>
         </FadeInSection>
 
-        <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
+        <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
           <div className="frontend">
             <h1>Front-end</h1>
             <p>
               I am proficient in Javascript, TypeScript, HTML/CSS, Node.js, React. <br />
               I have commercial experience building professional Websites.
             </p>
-
-            <h2>Industrial Foot Bath</h2>
-            <h2>Insert Image/Link here of project</h2>
-            <p>
-              A professional website marketing industrial cleaning products for FMCG Industry Solutions <br />
-              <strong>Primary Languages:</strong> Wordpress, HTML, CSS.
-            </p>
-
-            <h2>PlaceHolder Project</h2>
-            <h2>Insert Image/Link here of project</h2>
-            <p>
-              PlaceHolder Description <br />
-              <strong>Primary Languages:</strong> Fill in with Javascript, Typescipt, React, etc.
-            </p>
+            <div className="frontend_projects">
+              <div className="content-wrapper">
+                <h2>Industrial Foot Bath</h2>
+                <h2>Insert Image/Link here of project</h2>
+                <p>
+                  A professional website marketing industrial cleaning products for FMCG Industry Solutions <br />
+                  <strong>Primary Languages:</strong> Wordpress, HTML, CSS.
+                </p>
+              </div>
+            </div>
+            <div className="frontend_projects">
+              <div className="content-wrapper">
+                <h2>PlaceHolder Project</h2>
+                <h2>Insert Image/Link here of project</h2>
+                <p>
+                  PlaceHolder Description <br />
+                  <strong>Primary Languages:</strong> Fill in with Javascript, Typescipt, React, etc.
+                </p>
+              </div>
+            </div>
           </div>
         </FadeInSection>
       </div>
 
-      <FadeInSection fadeInAt={0.2} fadeOutAt={0.4}>
+      <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
         <div className="links">
           <h1>Links</h1>
           <p>

@@ -1,31 +1,19 @@
+/* CSS file for my portfolio*/
+
+/* General styling */
 body {
   background-color: #212529;
   color: #e9ecef;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 10vw;
   padding-right: 10vw;
-}
-
-div {
-  padding-bottom: 20vh;
-}
-
-p {
-  padding-bottom: 10vh;
+  padding-bottom: 10vw;
 }
 
 h1 {
   font-size: 5rem;
 }
 
-.introduction {
-}
-
-.introduction-image {
-  padding-bottom: 0;
-  mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
-  -webkit-mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
-}
 .fade-in-section {
   opacity: 0;
   transform: translateY(20px);
@@ -37,18 +25,41 @@ h1 {
   transform: none;
 }
 
+/* Introduction */
+.introduction-image {
+  padding-bottom: 0;
+  mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
+}
+
+.about_me {
+  padding-bottom: 30vh;
+}
+
+/* Project work */
 .backend {
-  border: 0.2rem solid #e9ecef;
-  border-radius: 1rem;
-  padding-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 10vh;
 }
 
 .frontend {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 10vh;
+}
+
+.content-wrapper {
+  box-sizing: content-box;
   border: 0.2rem solid #e9ecef;
   border-radius: 1rem;
   padding-left: 1vw;
+  padding-right: 1vw;
 }
 
+/* Mobile compatibility */
 @media (max-width: 900px) {
 
   
