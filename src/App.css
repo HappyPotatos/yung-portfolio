@@ -28,8 +28,8 @@ h1 {
 /* Introduction */
 .introduction-image {
   padding-bottom: 0;
-  mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
-  -webkit-mask-image: radial-gradient(ellipse at center, #212529 40%, transparent 80%);
+  mask-image: radial-gradient(ellipse at center, #212529 10%, transparent 65%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #212529 10%, transparent 65%);
 }
 
 .about_me {
@@ -57,6 +57,7 @@ h1 {
   border-radius: 1rem;
   padding-left: 1vw;
   padding-right: 1vw;
+  width: 50vw;
 }
 
 /* Mobile compatibility */
