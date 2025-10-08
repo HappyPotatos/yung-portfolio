@@ -16,8 +16,6 @@ function App() {
         <h1> Hi, I'm Yung</h1>
         <img src={laptop} alt="Image of laptop" className="introduction-image"/>
       </div>
-
-      <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
         <div className="about_me">
           <h1>About Me</h1>
           <p>
@@ -26,10 +24,8 @@ function App() {
             which are programming, volleyball and philosophy.
           </p>
         </div>
-      </FadeInSection>
-
       <div className="projects">
-        <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
+        {/* <FadeInSection fadeInThreshold={0} fadeOutThreshold={0}> */}
           <div className="backend">
             <h1>Back-end</h1>
             <p>I am proficient in SQL, Java, Python, and using APIs (flask).</p>
@@ -55,9 +51,9 @@ function App() {
               </div>
             </div>
           </div>
-        </FadeInSection>
+        {/* </FadeInSection> */}
 
-        <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
+        {/* <FadeInSection fadeInThreshold={0} fadeOutThreshold={1}> */}
           <div className="frontend">
             <h1>Front-end</h1>
             <p>
@@ -85,10 +81,10 @@ function App() {
               </div>
             </div>
           </div>
-        </FadeInSection>
+        {/* </FadeInSection> */}
       </div>
 
-      <FadeInSection fadeInAt={0.2} fadeOutAt={0.8}>
+      <FadeInSection fadeInThreshold={0} fadeOutThreshold={1}>
         <div className="links">
           <h1>Links</h1>
           <p>

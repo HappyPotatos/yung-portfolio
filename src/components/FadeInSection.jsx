@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 
-const FadeInSection = ({ children, fadeInThreshold = 0.2, fadeOutThreshold = 0.4 }) => {
+const FadeInSection = ({ children, fadeInThreshold = 0, fadeOutThreshold = 1 }) => {
   const domRef = useRef();
   const [isVisible, setVisible] = useState(false);
 
@@ -13,7 +13,7 @@ const FadeInSection = ({ children, fadeInThreshold = 0.2, fadeOutThreshold = 0.4
             setVisible(true);
           }
           // Fade out when the element is less than "fadeOutThreshold" visible
-          if (entry.intersectionRatio < fadeOutThreshold) {
+          else if (entry.intersectionRatio < fadeOutThreshold) {
             setVisible(false);
           }
         });
