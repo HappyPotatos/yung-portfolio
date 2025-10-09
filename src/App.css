@@ -66,6 +66,9 @@ h1 {
     width: 83%;
   }
   
+  .kiosk-image {
+    width: 80%;
+  }
 }
 
 @media (max-width: 740px) {

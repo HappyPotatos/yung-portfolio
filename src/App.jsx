@@ -33,7 +33,7 @@ function App() {
             <div className="backend_projects">
               <div className="content-wrapper">
                 <h2>Virtual Wait System</h2>
-                <img src={kiosk} alt="Image of kiosk"/>
+                <img src={kiosk} alt="Image of kiosk" className="kiosk-image"/>
                 <p>
                   A fully functional kiosk screen and menu, eliminating the need for waiters to find a table and order food. <br />
                   <strong>Primary Languages:</strong> SQLite, Python, Flask.
