@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import laptop from './assets/laptop.jpg'
 import kiosk from './assets/kiosk.jpg'
 import dungeoncrawler from './assets/dungeoncrawler.jpg'
+import industrial from './assets/industrial.png'
+import hygiene from './assets/hygiene.png'
 import viteLogo from '/vite.svg'
 import './App.css'
 import FadeInSection from "./components/FadeInSection"
@@ -43,7 +45,7 @@ function App() {
             <div className="backend_projects">
               <div className="content-wrapper">
                 <h2>Dungeon Crawler</h2>
-                <img src={dungeoncrawler} alt="Image of dungeoncrawler"/>
+                <img src={dungeoncrawler} alt="Image of dungeoncrawler" className="dungeon-image"/>
                 <p>
                   A 2D dungeon crawler game, with unique monster and weapon mechanics. <br />
                   <strong>Primary Languages:</strong> Java.
@@ -63,7 +65,7 @@ function App() {
             <div className="frontend_projects">
               <div className="content-wrapper">
                 <h2>Industrial Foot Bath</h2>
-                <h2>Insert Image/Link here of project</h2>
+                <img src={industrial} alt="Image of industrial foot bath" className="industrial-image"/>
                 <p>
                   A professional website marketing industrial cleaning products for FMCG Industry Solutions <br />
                   <strong>Primary Languages:</strong> Wordpress, HTML, CSS.
@@ -72,11 +74,11 @@ function App() {
             </div>
             <div className="frontend_projects">
               <div className="content-wrapper">
-                <h2>PlaceHolder Project</h2>
-                <h2>Insert Image/Link here of project</h2>
+                <h2>Hygiene Brush</h2>
+                <img src={hygiene} alt="Image of hygiene brush" className="hygiene-image"/>
                 <p>
-                  PlaceHolder Description <br />
-                  <strong>Primary Languages:</strong> Fill in with Javascript, Typescipt, React, etc.
+                  A professional website selling brushes, brooms, and other accessories for HygieneBrush <br />
+                  <strong>Primary Languages:</strong> Wordpress, HTML, CSS, PHP.
                 </p>
               </div>
             </div>
