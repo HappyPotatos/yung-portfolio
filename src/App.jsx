@@ -63,24 +63,24 @@ function App() {
               I have commercial experience building professional Websites.
             </p>
             <div className="frontend_projects">
-              <div className="content-wrapper">
+              <a href="https://industrialfootbath.com.au/" target="_blank"><div className="content-wrapper">
                 <h2>Industrial Foot Bath</h2>
                 <img src={industrial} alt="Image of industrial foot bath" className="industrial-image"/>
                 <p>
                   A professional website marketing industrial cleaning products for FMCG Industry Solutions <br />
                   <strong>Primary Languages:</strong> Wordpress, HTML, CSS.
                 </p>
-              </div>
+              </div></a>
             </div>
             <div className="frontend_projects">
-              <div className="content-wrapper">
+              <a href="https://hygienemonitoring.com.au/" target="_blank"><div className="content-wrapper">
                 <h2>Hygiene Brush</h2>
                 <img src={hygiene} alt="Image of hygiene brush" className="hygiene-image"/>
                 <p>
                   A professional website selling brushes, brooms, and other accessories for HygieneBrush <br />
                   <strong>Primary Languages:</strong> Wordpress, HTML, CSS, PHP.
                 </p>
-              </div>
+              </div></a>
             </div>
           </div>
         {/* </FadeInSection> */}
