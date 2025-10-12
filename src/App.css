@@ -58,10 +58,13 @@ a {
 
 .content-wrapper {
   box-sizing: content-box;
-  border: 0.2rem solid #e9ecef;
   border-radius: 1rem;
   padding-left: 1vw;
   padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color:#57504d;
+  box-shadow: 10px 10px 2px 2px black;
 }
 
 .industrial-image {
@@ -79,6 +82,8 @@ a {
   .content-wrapper {
     padding-left: 3vw;
     padding-right: 3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
   }
   
   
