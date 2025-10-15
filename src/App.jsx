@@ -27,7 +27,7 @@ function App() {
           </p>
         </div>
       <div className="projects">
-        {/* <FadeInSection fadeInThreshold={0} fadeOutThreshold={0}> */}
+        <FadeInSection fadeInThreshold={0.2} fadeOutThreshold={0.8}>
           <div className="backend">
             <h1>Back-end</h1>
             <p>I am proficient in SQL, Java, Python, and using APIs (flask).</p>
@@ -53,9 +53,9 @@ function App() {
               </div>
             </div>
           </div>
-        {/* </FadeInSection> */}
+        </FadeInSection>
 
-        {/* <FadeInSection fadeInThreshold={0} fadeOutThreshold={1}> */}
+        <FadeInSection fadeInThreshold={0.2} fadeOutThreshold={0.8}>
           <div className="frontend">
             <h1>Front-end</h1>
             <p>
@@ -83,10 +83,10 @@ function App() {
               </div></a>
             </div>
           </div>
-        {/* </FadeInSection> */}
+        </FadeInSection>
       </div>
 
-      <FadeInSection fadeInThreshold={0} fadeOutThreshold={1}>
+      {/* <FadeInSection fadeInThreshold={0.2} fadeOutThreshold={0.8}> */}
         <div className="links">
           <h1>Links</h1>
           <p>
@@ -94,7 +94,7 @@ function App() {
             LinkedIn: https://www.linkedin.com/in/yung-kim1/
           </p>
         </div>
-      </FadeInSection>
+      {/* </FadeInSection> */}
     </>
   )
 }
