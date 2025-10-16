@@ -36,6 +36,7 @@ a:hover {
 
 /* Introduction */
 .introduction-image {
+  width: 80%;
   padding-bottom: 0;
   mask-image: radial-gradient(ellipse at center, #212529 10%, transparent 65%);
   -webkit-mask-image: radial-gradient(ellipse at center, #212529 10%, transparent 65%);
@@ -98,9 +99,6 @@ a:hover {
 
 @media (max-width: 740px) {
   
-  .introduction-image {
-    width: 100%;
-  }
 
   .kiosk-image {
     width: 100%;

@@ -21,8 +21,8 @@ function App() {
         <div className="about_me">
           <h1>About Me</h1>
           <p>
-            I’m a Full-Stack Software Developer, recently graduated from UNSW with a Bachelor’s in Computer Science. <br />
-            I love sharing my knowledge and experiences in the hobbies and work I am passionate about, <br />
+            I’m a Full-Stack Software Developer, recently graduated from UNSW with a Bachelor’s in Computer Science.
+            I love sharing my knowledge and experiences in the hobbies and work I am passionate about, 
             which are programming, volleyball and philosophy.
           </p>
         </div>
