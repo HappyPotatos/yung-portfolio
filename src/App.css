@@ -94,14 +94,12 @@ a:hover {
     padding-top: 1vh;
     padding-bottom: 1vh;
   }
-  
-  
 }
 
 @media (max-width: 740px) {
   
   .introduction-image {
-    margin-left: -15vw;
+    width: 100%;
   }
 
   .kiosk-image {
@@ -111,6 +109,9 @@ a:hover {
   .dungeon-image {
     width: 100%;
   }
-
+  
+  h1 {
+    font-size: 3rem;
+  }
 
 }
