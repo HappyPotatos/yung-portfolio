@@ -77,6 +77,17 @@ a:hover {
   box-shadow: 10px 10px 2px 2px white;
 }
 
+.content-wrapper-backend {
+  box-sizing: content-box;
+  border-radius: 1rem;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color:#57504d;
+  box-shadow: 10px 10px 2px 2px black;
+}
+
 .industrial-image {
   width: 100%;
 }
