@@ -96,7 +96,9 @@ a:hover {
   width: 100%;
 }
 
-
+.dungeon-image {
+    width: 100%;
+  }
 
 /* Mobile compatibility */
 @media (max-width: 1100px) {
@@ -115,9 +117,7 @@ a:hover {
     width: 100%;
   }
 
-  .dungeon-image {
-    width: 100%;
-  }
+  
   
   h1 {
     font-size: 3rem;
