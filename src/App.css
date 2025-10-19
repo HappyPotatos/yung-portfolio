@@ -98,7 +98,12 @@ a:hover {
 
 .dungeon-image {
     width: 100%;
-  }
+}
+
+.kiosk-image {
+  width: 100%;
+}
+  
 
 /* Mobile compatibility */
 @media (max-width: 1100px) {
@@ -113,10 +118,7 @@ a:hover {
 @media (max-width: 740px) {
   
 
-  .kiosk-image {
-    width: 100%;
-  }
-
+  
   
   
   h1 {
